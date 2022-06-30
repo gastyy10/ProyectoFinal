@@ -20,16 +20,17 @@ text-decoration: dotted;
 
 
 }
-a:hover{color: white;
-    
-
-}
+a:hover{color: white
+    }
 
 li{display: inline-block;
     padding-left: 200px;
+    list-style-type: none;}
     
-    
-}
+
+
+
+
 
 
 

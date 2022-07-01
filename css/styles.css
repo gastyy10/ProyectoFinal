@@ -25,7 +25,7 @@ a:hover{color: white
 
 li{display: inline-block;
     padding-left: 200px;
-    list-style-type: none;}
+    }
     
 
 
@@ -54,7 +54,7 @@ footer{
  
 }
 
-.grid-container{
+.grid-container-pan{
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content:space-around;
@@ -62,8 +62,16 @@ footer{
     margin-top: 50px;
     margin-right: 40px;
     text-align: center;
+    
 
     
+}
+.btn-volver{
+    color:burlywood;
+    background-color: black;
+    border-color: white;
+    justify-content: center;
+    align-items: center;
 }
 
  

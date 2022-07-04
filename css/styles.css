@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{background-color: burlywood;}
 header{background-color: black ; padding-left: 630px ;}
@@ -61,22 +62,10 @@ footer{
     gap: 100px;
     margin-top: 50px;
     margin-right: 40px;
-    text-align: center;
-    
-
-    
-}
-.btn-volver{
-    color:burlywood;
-    background-color: black;
-    border-color: white;
-    justify-content: center;
-    align-items: center;
+    text-align: center;   
 }
 
- 
-    
-    
+
      
     
   
@@ -90,23 +79,6 @@ footer{
 
 
 
-
-
-
-@media screen and (max-width: 480px) {
-    body{
-        background-color: aqua;
-        color: blueviolet;
-        
-    
-    }
-    header{margin-left: 200px;    
-    }
-    h1{margin-left: -450px;}
-    ul{display: flex; flex-direction: row;
-    margin-left: -100px;}
-   
-    }
 
 
 

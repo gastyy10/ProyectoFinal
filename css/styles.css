@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 body{background-color: burlywood;}
 header{background-color: black ; padding-left: 630px ;}
@@ -21,17 +20,16 @@ text-decoration: dotted;
 
 
 }
-a:hover{color: white
-    }
+a:hover{color: white;
+    
+
+}
 
 li{display: inline-block;
     padding-left: 200px;
-    }
     
-
-
-
-
+    
+}
 
 
 
@@ -62,30 +60,16 @@ footer{
     gap: 100px;
     margin-top: 50px;
     margin-right: 40px;
-    text-align: center;   
+    text-align: center;
+
+    
 }
 
-
+ 
+    
+    
      
     
   
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-    
 

@@ -52,17 +52,7 @@ footer{
  
 }
 
-.grid-container-pan{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content:space-around;
-    gap: 100px;
-    margin-top: 50px;
-    margin-right: 40px;
-    text-align: center;
 
-    
-}
 
 $color: (
     primary: red,
@@ -71,7 +61,7 @@ $color: (
 a{
     color: map-get($color, primary);
 }
-    
+
     
      
     

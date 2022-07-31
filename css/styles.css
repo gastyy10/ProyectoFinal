@@ -1,22 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Blaka&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Anton", sans-serif;
 }
 
 body {
   background-color: burlywood;
 }
 
-header {
-  background-color: black;
-  padding-left: 630px;
-}
-
 h1 {
   color: burlywood;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  justify-content: center;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  transition: all 300ms ease;
 }
 
 h1:hover {
@@ -24,15 +21,15 @@ h1:hover {
 }
 
 a {
-  color: black;
   font-size: larger;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-text-decoration: dotted;
-          text-decoration: dotted;
+  font-family: "Anton", sans-serif;
+  transition: all 300ms ease;
 }
 
 a:hover {
   color: white;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }
 
 li {
@@ -50,12 +47,89 @@ section {
   gap: 40px;
 }
 
-footer {
-  margin-left: 500px;
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
 }
 
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
 
-a {
-  color: red;
+.contacto1 {
+  margin-left: 620px;
+}
+
+.formulario1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.pie-pagina .grupo-1 .box {
+  color: burlywood;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+}
+
+.pie-pagina .grupo-1 .red-social i {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social i:hover {
+  color: white;
+}
+
+.pie-pagina grupo-2 small {
+  padding: 15px 10px;
+  color: burlywood;
+}
+
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
 }/*# sourceMappingURL=styles.css.map */
-

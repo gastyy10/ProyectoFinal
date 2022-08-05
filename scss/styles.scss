@@ -34,15 +34,11 @@ li {
 section{
     display: flex;
     flex-direction: column;
-   
-    
-    
 }
 .inicio{
     margin-top: 30px;
     gap: 40px;
-    
-
+   
 }
 .card {
     width: 100%;
@@ -145,11 +141,21 @@ section{
         width: 400px;
         height: 420px;}
 
-    }
+
+    
 
     footer{
         height: 730px;
     }
+  
+    .contacto1 h2{
+        overflow: hidden;
+    }
+    figure h2{
+        font-size: 10px;
+    }
+}
+    
 
 
 

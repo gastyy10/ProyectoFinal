@@ -133,6 +133,25 @@ section{
     }
     
 }
+@media screen and (max-width:800px) {
+    figure h2 {margin-right: 500px;
+        margin-top:170px
+
+    }
+}
+
+@media screen and (max-width:420px) {
+    section img{
+        width: 400px;
+        height: 420px;}
+
+    }
+
+    footer{
+        height: 730px;
+    }
+
+
 
 
     

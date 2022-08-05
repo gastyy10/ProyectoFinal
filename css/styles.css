@@ -125,6 +125,10 @@ section {
   color: burlywood;
 }
 
+.pie-pagina .grupo-1 .box p {
+  color: burlywood;
+}
+
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;

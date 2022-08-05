@@ -138,10 +138,14 @@ section {
     margin-right: 500px;
     margin-top: 170px;
   }
+  section img {
+    width: 590px;
+    height: 420px;
+  }
 }
 @media screen and (max-width: 420px) {
   section img {
-    width: 400px;
+    width: 380px;
     height: 420px;
   }
   footer {
@@ -149,8 +153,5 @@ section {
   }
   .contacto1 h2 {
     overflow: hidden;
-  }
-  figure h2 {
-    font-size: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
